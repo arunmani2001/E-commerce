@@ -1,0 +1,26 @@
+.Adminlogin{
+  background-color:rgb(187, 187, 231);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.Adminlogin form{
+  display: grid;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  grid-template-columns: 100px 200px;
+  background-color: aqua;
+  padding: 15px;
+  border-radius: 10px;
+  
+
+
+}
+.Adminlogin form:hover{
+  box-shadow: 0px 0px 20px white;
+}

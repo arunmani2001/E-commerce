@@ -1,0 +1,19 @@
+.AdminViewItems{
+    background-color: azure;
+}
+.AdminViewItems>.sub_items>.card1{
+    display: flex;
+    padding: 0px 0px 100px 0px;
+}
+.AdminViewItems>.sub_items>.card1>.description{
+    padding: 20px;
+
+}
+.AdminViewItems>.sub_items>.card1>.thumnail{
+    padding: 20px;
+}
+.thumnail> img{
+    height: 280px;
+    width: 250px;
+}
+

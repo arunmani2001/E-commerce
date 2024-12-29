@@ -1,0 +1,25 @@
+.AdminNavbar{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    position: sticky;
+    
+    
+}
+.logo>h1{
+    color: red;
+    font-style:oblique;
+}
+.logo>h1>span{
+    font-style: italic;
+    color: rgb(161, 205, 86);
+}
+
+.AdminNavbar>.links :hover{
+    color: white;
+}

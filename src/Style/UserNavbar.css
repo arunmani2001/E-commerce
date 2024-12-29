@@ -1,0 +1,37 @@
+.UserNavbar{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.links{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+
+}
+.logo>h1{
+    color: red;
+    font-style:oblique;
+}
+.logo>h1>span{
+    font-style: italic;
+    color: rgb(161, 205, 86);
+}
+
+.UserNavbar>.links :hover{
+    color: white;
+}
+.links img{
+    height: 70px;
+    width: 100px;
+    border-radius: 5px;
+}

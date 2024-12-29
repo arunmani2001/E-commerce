@@ -1,0 +1,30 @@
+/* .updateproducts{
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 10px 100px 500px;
+    box-shadow: 0px 0px 30px red;
+    
+    
+}
+.updateproducts>h1{
+    color:purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.updateproducts>form>fieldset{
+    display: grid;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    grid-template-columns: 150px 300px;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 10px;
+} */
+.updateproducts{
+    background-color: black;
+}

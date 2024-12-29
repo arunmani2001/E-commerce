@@ -1,0 +1,18 @@
+.userviewcart{
+    background:linear-gradient(rgb(218, 200, 218),lightblue);
+}
+.userviewcart>.items{
+    height: 200px;
+    width: 80%;
+    border:10px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.userviewcart>.items>.item img{
+    height: 100px;
+    width: 100px;
+}

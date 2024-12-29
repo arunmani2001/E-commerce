@@ -1,0 +1,157 @@
+{
+  "Admin": [
+    {
+      "id": "1",
+      "name": "arunkumar",
+      "email": "arun@gmail.com",
+      "password": "1234",
+      "phone": "1234124523"
+    },
+    {
+      "id": "2",
+      "name": "ashockumar",
+      "email": "ashock@gmail.com",
+      "password": "1234",
+      "phone": "1234164523"
+    },
+    {
+      "id": "3",
+      "name": "anandhakumar",
+      "email": "ananadhan@gmail.com",
+      "password": "1234",
+      "phone": "1234124623"
+    },
+    {
+      "id": "97b6",
+      "name": "arunkumar mani",
+      "email": "mani@gmail.com",
+      "phone": "1234512345"
+    },
+    {
+      "id": "032a",
+      "name": "arunkumar.m",
+      "password": "12345",
+      "email": "arunkumar@gmail.com",
+      "phone": "1234512345"
+    },
+    {
+      "id": "cf0c",
+      "name": "ashock",
+      "password": "ashock",
+      "email": "ashock@gmail.com",
+      "phone": "9134242431"
+    }
+  ],
+  "User": [
+    {
+      "id": "7b51",
+      "name": "arunkumar",
+      "password": "1234",
+      "email": "arun@gmail.com",
+      "phone": "9812347645"
+    },
+    {
+      "id": "939f",
+      "name": "Arunkumar",
+      "password": "arun@oma",
+      "email": "arunkumar@gmail.com",
+      "phone": "6379927107"
+    },
+    {
+      "id": "06b0",
+      "name": "jaikiran",
+      "password": "Jai@1234",
+      "email": "jai@gmail.com",
+      "phone": "8088519272"
+    },
+    {
+      "id": "b37b",
+      "name": "vijay",
+      "password": "vijay1234",
+      "email": "vijay@gmail.com",
+      "phone": "8776757652"
+    }
+  ],
+  "Product": [
+    {
+      "id": "44ab",
+      "category": "Mobile",
+      "name": "realme P1 ",
+      "price": "300000",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/4/y/b/-original-imahyzygycuyg3mq.jpeg?q=70&crop=false",
+      "rating": "4",
+      "desc": "realme P1 Pro 5G (Parrot Blue, 256 GB)  (8 GB RAM)"
+    },
+    {
+      "id": "79cc",
+      "category": "Mobile",
+      "name": "POCO M6 ",
+      "price": "130000",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/d/h/q/m6-pro-5g-mzb0eprin-poco-original-imags3e7vewsafst.jpeg?q=70&crop=false",
+      "rating": "2",
+      "desc": "POCO M6 Pro 5G (Power Black, 128 GB)  (6 GB RAM)"
+    },
+    {
+      "id": "6693",
+      "category": "Mobile Accessories",
+      "name": "Bluetooth",
+      "price": "2000",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/m/x/o/-original-imagt5cwzxknqpbu.jpeg?q=70",
+      "rating": "5",
+      "desc": "Boult W20 with Zen ENC Mic, 35H Battery Life, Low Latency Gaming, Made in India, 5.3v Bluetooth  (Glacier Blue, True Wireless)"
+    },
+    {
+      "id": "2266",
+      "category": "Mobile Accessories",
+      "name": "Bluetooth",
+      "price": "600",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/m/h/0/airdoze-typec-bt-5-2-65mslowlatency-touchenabled-12mmdrivers-original-imah2tpcffzzwv2g.jpeg?q=70",
+      "rating": "3.6",
+      "desc": "Highnotes AirDoze TypeC BT 5.2, 65msLowLatency TouchEnabled 12mmDrivers Gaming Earbuds Bluetooth  (Jet Black, True Wireless)"
+    },
+    {
+      "id": "4bca",
+      "category": "Mobile Accessories",
+      "name": "realme 12x 5G",
+      "price": "140000",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/w/c/3/-original-imah3chxfqnezjjb.jpeg?q=70&crop=false",
+      "rating": "3",
+      "desc": "realme 12x 5G (Twilight Purple, 128 GB)  (6 GB RAM)"
+    },
+    {
+      "id": "c6c7",
+      "category": "Mobile",
+      "name": "Motorola g64",
+      "price": "170000",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/c/q/b/g64-5g-pb2e0006in-motorola-original-imagzzd4nmrgsevr.jpeg?q=70",
+      "rating": "4",
+      "desc": "Motorola g64 5G (Pearl Blue, 256 GB)  (12 GB RAM)#JustHere"
+    },
+    {
+      "id": "cf95",
+      "category": "Electronics",
+      "name": "Mivi Fort H120 Soundbar",
+      "price": "50000",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/m/n/x/-original-imah4jfdjj6g3jrn.jpeg?q=70",
+      "rating": "5",
+      "desc": "Mivi Fort H120 Soundbar, 120 Watts, 2.1 Channel, Multi-Input and EQ Modes, BT v5.1 120 W Bluetooth Soundbar  (Black, 5.1 Channel)"
+    },
+    {
+      "id": "05c3",
+      "category": "Electronics",
+      "name": "Aroma B119C",
+      "price": "400",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/q/z/l/b119c-carter-48-hours-playing-time-fast-charging-neckband-original-imah45dvru4htths.jpeg?q=70",
+      "rating": "4",
+      "desc": "Aroma B119C Carter 48 Hours Playing Time Fast Charging Neckband Earphone Bluetooth  (Black, Silver, In the Ear)"
+    }
+  ],
+  "Cart": [
+    {
+      "id": "44ab",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/4/y/b/-original-imahyzygycuyg3mq.jpeg?q=70&crop=false",
+      "price": "300000",
+      "name": "realme P1 "
+    }
+  ]
+}
