@@ -1,4 +1,5 @@
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import UserLogin from './Components/UserLogin'
 import AdminLogin from './Components/AdminLogin'
 import Landing from './Components/Landing'
@@ -17,7 +18,7 @@ import AdminUpdateAccount from './Components/AdminUpdateAccount'
 function App() {
   return (
     <div className='app'>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path='/*' element={<Error/>}></Route>
             <Route path='/' element={<Landing/>}> </Route>
@@ -31,7 +32,7 @@ function App() {
             <Route path='adminhomepage/*' element={<AdminHomePage/>}> </Route>
             <Route path='userhomepage/*' element={<UserHomePage/>}></Route>
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
         <ToastContainer/>
     </div>
   )
