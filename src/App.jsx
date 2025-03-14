@@ -1,4 +1,4 @@
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import {Routes,Route} from 'react-router-dom'
 import { HashRouter } from 'react-router-dom'
 import UserLogin from './Components/UserLogin'
 import AdminLogin from './Components/AdminLogin'
@@ -11,9 +11,9 @@ import Error from './Components/Error'
 import 'react-toastify/dist/ReactToastify.css';
 // import AdminAccountInfo from './Components/AdminAccountInfo'
 import AdminUpdateAccount from './Components/AdminUpdateAccount'
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// import { ToastContainer } from 'react-toastify';
+
 
 function App() {
   return (
