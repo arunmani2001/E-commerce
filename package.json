@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "concurrently \"npm run json-server\" \"npm run react-start\"",
-    "json-server": "json-server --watch src/Data/Info.json --port 1000 --host 0.0.0.0",
+    "json-server": "json-server --watch src/Data/Info.json --host 127.0.0.1 --port 1000 ",
     "react-start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -13,7 +13,7 @@ const AdminSignup=()=>{
   let data={name,password,email,phone}
 
   function addAdmin(){
-    axios.post('http://localhost:1000/Admin',data)
+    axios.post('http://127.0.0.1:1000/Admin',data)
     .then((res)=>{
   console.log(res);
   alert('admin creates successfully')

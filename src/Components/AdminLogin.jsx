@@ -10,7 +10,7 @@ function AdminLogin(){
   let [Admin,setAdmin]=useState([])
   useEffect(()=>{
     async function fetchAdmin(){
-      let data=await fetch('http://0.0.0.0:1000/Admin')
+      let data=await fetch('http://127.0.0.1:1000/Admin')
       let res=await data.json();
       setAdmin(res)
       

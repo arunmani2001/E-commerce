@@ -27,7 +27,7 @@ function AdminViewItems(){
   console.log(products);
 
 function deleteProduct(id,name) {
-    axios.delete(`http://localhost:1000/Product/${id}`)
+    axios.delete(`http://0.0.0.0:1000/Product/${id}`)
       .then(() => {
         toast.success(`${name} Deleted Successfully`)
         setForce(force+1)

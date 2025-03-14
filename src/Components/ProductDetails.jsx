@@ -9,7 +9,7 @@ function ProductDetails() {
   let {id} = useParams()
   useEffect(() => {
     function fetchdata() {
-      axios.get(`http://localhost:1000/Product/${id}`)
+      axios.get(`http://0.0.0.0:1000/Product/${id}`)
         .then((res) => {
           setProduct(res.data)
         })
