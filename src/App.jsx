@@ -8,12 +8,12 @@ import AdminHomePage from './Components/AdminHomePage'
 import UserSignup from './Components/UserSignup'
 import UserHomePage from './Components/UserHomePage'
 import Error from './Components/Error'
-import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import AdminAccountInfo from './Components/AdminAccountInfo'
+// import AdminAccountInfo from './Components/AdminAccountInfo'
 import AdminUpdateAccount from './Components/AdminUpdateAccount'
-
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+// import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
