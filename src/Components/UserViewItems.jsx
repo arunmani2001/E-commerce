@@ -11,7 +11,7 @@ function UserViewItems() {
   let [products, setProducts] = useState([])
   useEffect(() => {
     function fetchdata() {
-      axios.get('http://localhost:1000/Product')
+      axios.get('http://127.0.0.1:1000/Product')
         .then((res) => {
           setProducts(res.data)
         })
@@ -25,7 +25,7 @@ function UserViewItems() {
   function Addtocart(id,image,price,name){
       let data={id,image,price,name}
       function fetchdata(){
-        axios.post('http://localhost:1000/Cart',data)
+        axios.post('http://127.0.0.1:1000/Cart',data)
         .then((res)=>{
           console.log(res.data);
           toast.success('addtocart successfully')

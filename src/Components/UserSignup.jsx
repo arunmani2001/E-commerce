@@ -13,7 +13,7 @@ const UserSignup=()=>{
   let data={name,password,email,phone}
 
   function addUser(){
-    axios.post('http://localhost:1000/User',data)
+    axios.post('http://127.0.0.1:1000/User',data)
     .then((res)=>{
       console.log(res);
       alert('user creates successfully')

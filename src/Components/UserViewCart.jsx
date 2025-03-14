@@ -9,7 +9,7 @@ function UserViewCart() {
     let [force,setForce] = useState(0)
     useEffect(()=>{
         function fetchdata(){
-            axios.get('http://localhost:1000/Cart')
+            axios.get('http://127.0.0.1:1000/Cart')
             .then((res)=>{
                 setProducts(res.data)
             })
@@ -23,7 +23,7 @@ function UserViewCart() {
     console.log(Cart);
      
 function DeleteCart(id){
-    axios.delete(`http://localhost:1000/Cart/${id}`)
+    axios.delete(`http://127.0.0.1:1000/Cart/${id}`)
     .then(()=>{
         toast.success('deleted successfully')
         setForce(force+1)

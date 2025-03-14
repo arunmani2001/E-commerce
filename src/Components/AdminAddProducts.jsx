@@ -18,7 +18,7 @@ function AdminAddProducts() {
 
     function addProduct(e){
         e.preventDefault();
-        axios.post('http://localhost:1000/Product',data)
+        axios.post('http://127.0.0.1:1000/Product',data)
         .then((res)=>{
             console.log(res);
             toast.success('data added successfully')

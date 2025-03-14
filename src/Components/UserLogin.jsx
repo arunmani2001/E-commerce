@@ -10,7 +10,7 @@ function UserLogin(){
   let [User,setUser]=useState([])
   useEffect(()=>{
     async function fetchUser(){
-      let data=await fetch('http://localhost:1000/User')
+      let data=await fetch('http://127.0.0.1:1000/User')
       let res=await data.json();
       setUser(res)
       

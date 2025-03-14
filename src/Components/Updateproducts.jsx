@@ -34,7 +34,7 @@ function Updateproducts() {
     let param = useParams();
 
     useEffect(() => {
-        axios.get(`http://0.0.0.0:1000/Product/${param.id}`)
+        axios.get(`http://127.0.0.1:1000/Product/${param.id}`)
             .then((res) => {
                 console.log(res.data);
                 setName(res.data.name)
