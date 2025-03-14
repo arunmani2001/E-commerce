@@ -1,6 +1,8 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import '../Style/UserViewCart.css'
+import { toast } from 'react-toastify';
+
 
 function UserViewCart() {
     let [Cart,setProducts] = useState([])
@@ -23,13 +25,13 @@ function UserViewCart() {
 function DeleteCart(id){
     axios.delete(`http://localhost:1000/Cart/${id}`)
     .then(()=>{
-        alert('deleted successfully')
+        toast.success('deleted successfully')
         setForce(force+1)
     })
     .catch((err)=>{
         console.log(err);
         
-        alert('invalid credential')
+        toast.error('invalid credential')
     })
 }
 

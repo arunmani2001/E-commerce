@@ -2,6 +2,7 @@ import React,{useEffect, useState} from 'react'
 import '../Style/Adminlogin.css'
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 function AdminLogin(){
   let [username,setusername]=useState("");
@@ -22,10 +23,10 @@ function AdminLogin(){
     let val=Admin.filter((x)=>{
       return x.email === username && x.password === password})
     if (val.length>0){
-      alert('login successfully')
+      toast.success('login successfully')
       naviagate('/adminhomepage')
     }else{
-      alert('invalid username password')
+      toast.error('invalid username password')
     }
   }  
   

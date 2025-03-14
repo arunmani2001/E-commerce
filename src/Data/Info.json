@@ -40,6 +40,13 @@
       "password": "ashock",
       "email": "ashock@gmail.com",
       "phone": "9134242431"
+    },
+    {
+      "id": "23b4",
+      "name": "Arunkumar",
+      "password": "arun",
+      "email": "arun@gmail.com",
+      "phone": "1234698121"
     }
   ],
   "User": [
@@ -73,24 +80,6 @@
     }
   ],
   "Product": [
-    {
-      "id": "44ab",
-      "category": "Mobile",
-      "name": "realme P1 ",
-      "price": "300000",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/4/y/b/-original-imahyzygycuyg3mq.jpeg?q=70&crop=false",
-      "rating": "4",
-      "desc": "realme P1 Pro 5G (Parrot Blue, 256 GB)  (8 GB RAM)"
-    },
-    {
-      "id": "79cc",
-      "category": "Mobile",
-      "name": "POCO M6 ",
-      "price": "130000",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/d/h/q/m6-pro-5g-mzb0eprin-poco-original-imags3e7vewsafst.jpeg?q=70&crop=false",
-      "rating": "2",
-      "desc": "POCO M6 Pro 5G (Power Black, 128 GB)  (6 GB RAM)"
-    },
     {
       "id": "6693",
       "category": "Mobile Accessories",
@@ -152,6 +141,12 @@
       "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/4/y/b/-original-imahyzygycuyg3mq.jpeg?q=70&crop=false",
       "price": "300000",
       "name": "realme P1 "
+    },
+    {
+      "id": "6693",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/m/x/o/-original-imagt5cwzxknqpbu.jpeg?q=70",
+      "price": "2000",
+      "name": "Bluetooth"
     }
   ]
 }

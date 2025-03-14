@@ -2,6 +2,7 @@ import React,{useEffect, useState} from 'react'
 import '../Style/UserLogin.css'
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 function UserLogin(){
   let [username,setusername]=useState("");
@@ -22,10 +23,10 @@ function UserLogin(){
     let val=User.filter((x)=>{
       return x.email === username && x.password === password})
     if (val.length>0){
-      alert('login successfully')
+      toast.success('login successfully')
       naviagate('/userhomepage')
     }else{
-      alert('invalid username password')
+      toast.error('invalid username password')
     }
   }  
   

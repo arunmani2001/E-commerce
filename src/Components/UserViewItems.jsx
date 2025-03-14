@@ -3,6 +3,7 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import '../Style/UserViewItems.css'
 import { Link } from 'react-router-dom'
+import { toast } from 'react-toastify';
 
 
 
@@ -27,12 +28,12 @@ function UserViewItems() {
         axios.post('http://localhost:1000/Cart',data)
         .then((res)=>{
           console.log(res.data);
-          alert('addtocart successfully')
+          toast.success('addtocart successfully')
           
         })
         .catch((err)=>{
           console.log(err);
-          alert('data is invalid')
+          toast.error('data is invalid')
         })
       }
       fetchdata()
